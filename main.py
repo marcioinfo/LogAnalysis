@@ -120,14 +120,16 @@ title_log = '''On which days did more than 1% of requests lead to errors?'''
 
 # Call functions
 
-logging.debug('call function top_article')
-print(out_put(pop_article(), 'Article Report', ' - views', title_article))
+if __name__ == "__main__":
 
-logging.debug('call function top_author')
-print(out_put(pop_author(), 'Author Report', ' - views', title_author))
+    logging.debug('call function top_article')
+    print(out_put(pop_article(), 'Article Report', ' - views', title_article))
 
-logging.debug('call function get_logs')
-print(out_put(get_logs(), 'Log Report', '% Error', title_log))
+    logging.debug('call function top_author')
+    print(out_put(pop_author(), 'Author Report', ' - views', title_author))
+
+    logging.debug('call function get_logs')
+    print(out_put(get_logs(), 'Log Report', '% Error', title_log))
 
 # close db connection
 
