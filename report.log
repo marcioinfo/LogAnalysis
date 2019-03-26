@@ -1,0 +1,13 @@
+2019-03-26 05:46:41,338 DEBUG    call function top_article
+2019-03-26 05:46:41,339 DEBUG    Connecting to news DB
+2019-03-26 05:46:41,341 DEBUG    Executing query article
+2019-03-26 05:46:42,642 DEBUG    Query Article Executed
+2019-03-26 05:46:42,643 DEBUG    call function top_author
+2019-03-26 05:46:42,643 DEBUG    Connecting to news DB
+2019-03-26 05:46:42,649 DEBUG    Executing query author
+2019-03-26 05:46:43,989 DEBUG    Query Author Executed
+2019-03-26 05:46:43,989 DEBUG    call function get_logs
+2019-03-26 05:46:43,990 DEBUG    Connecting to news DB
+2019-03-26 05:46:43,996 DEBUG    Executing query log
+2019-03-26 05:46:48,808 DEBUG    Query Log Executed
+2019-03-26 05:46:48,808 DEBUG    Finish Script
