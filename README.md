@@ -1,4 +1,3 @@
-
 #Log Analisyer Project
 
 ##Functionality
