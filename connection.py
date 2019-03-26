@@ -10,5 +10,5 @@ def ps_connection():
         db = psycopg2.connect(database=dbname)
         conn = db.cursor()
         return conn
-    except (Exception, psycopg2.DatabaseError) as error:
+    except (psycopg2.Error, psycopg2.DatabaseError) as error:
         print(error)
