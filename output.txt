@@ -1,0 +1,37 @@
+vagrant@vagrant:/vagrant/logAnalysis$ python main.py
+ 
+**************************************** Article Report **************************************** 
+
+DATE: Tue Mar 26 06:16:19 2019
+ What are the most popular three articles of all time?
+
+--------------------------------------------------------------------------------
+	Candidate is jerk, alleges rival - 338647 - views
+--------------------------------------------------------------------------------
+	Bears love berries, alleges bear - 253801 - views
+--------------------------------------------------------------------------------
+	Bad things gone, say good people - 170098 - views
+ 
+**************************************** Author Report **************************************** 
+
+DATE: Tue Mar 26 06:16:19 2019
+Who are the most popular article authors of all time?
+
+--------------------------------------------------------------------------------
+	Ursula La Multa - 507594 - views
+--------------------------------------------------------------------------------
+	Rudolf von Treppenwitz - 423457 - views
+--------------------------------------------------------------------------------
+	Anonymous Contributor - 170098 - views
+--------------------------------------------------------------------------------
+	Markoff Chaney - 84557 - views
+ 
+**************************************** Log Report **************************************** 
+
+DATE: Tue Mar 26 06:16:19 2019
+On which days did more than 1% of requests lead to errors?
+
+--------------------------------------------------------------------------------
+	17-JUL-2016 - 2.26% Error
+ 
+vagrant@vagrant:/vagrant/logAnalysis$ 
