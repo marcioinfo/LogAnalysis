@@ -12,4 +12,3 @@ def ps_connection():
         return conn
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
-
